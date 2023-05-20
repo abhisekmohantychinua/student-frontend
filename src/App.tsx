@@ -18,7 +18,8 @@ const App = () => {
 			{cdnLink}
 			<Navbar
 				bg='dark'
-				variant='dark'>
+				variant='dark'
+				className='sticky-top'>
 				<Container>
 					<Navbar.Brand href='#home'>Navbar</Navbar.Brand>
 					<Nav className='me-auto'>
